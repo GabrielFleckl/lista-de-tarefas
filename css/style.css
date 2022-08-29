@@ -26,7 +26,6 @@ header{
     margin: auto auto;
     align-items: center;
     margin-top: 2em;
-    
 }
 
 input{
@@ -52,7 +51,11 @@ button.add  {
     height: 60px;
     border-radius: 0px 15px 15px 0px;
     font-size: 1.5em;
-    
+}
+
+button.add:hover{
+    background-color: #5a7a5e;
+    transition: 0.3s;
 }
 
 .plus{
@@ -73,6 +76,7 @@ main{
     width: 90%;
     margin: auto auto;
     padding-top:40px;
+    transition: 0.3s;
 }
 
 .item{
@@ -87,13 +91,18 @@ main{
     border-radius: 15px;
     margin: auto;
     margin-bottom: 1.5%;
-    transition: 0.5s;
+    transition: 0.3s;
+}
+
+.item:hover{
+    background-color: #444;
 }
 
 .item-icone{
     flex: 20%;
     text-align: center;
     font-size: 2rem;
+
 
 }
 .item-nome{
@@ -102,12 +111,11 @@ main{
     cursor: pointer;
     
     
+    
 }
 .item-botao{
     flex: 25%;
     cursor: pointer;
-    
-    
 }
 
 .delete{
@@ -125,20 +133,28 @@ main{
 .mdi-check-circle{
     color: #02b402;
     font-size: 1.3em;
+    cursor: pointer;
 }
 
 .mdi-circle-outline{
     font-size: 1.2em;
+    cursor: pointer;
+}
+
+.mdi-checkbox-outline{
+    color: #02b402;
 }
 
 .item.done{
-    background-color: #83BCA9;
+    background-color: #384e3b;
+    
     
 }
 
 .item.done .item-nome{
     text-decoration: line-through;
-    color: #5e2a1f;
+    color: #ffffff;
+    
 }
 
 .mdi-view-list{
