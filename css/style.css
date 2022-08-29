@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #282B28;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    width: 50%;
+    margin: auto auto;
+    align-items: center;
+    margin-top: 2em;
+    
+}
+
+input{
+    height: 60px;
+    font-size: 1.5rem;
+    width: 80%;
+    padding-left: 10%;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+button.add  { 
+    width: 30%;
+    cursor: pointer;
+    background-color: #3E5641;
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 60px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 1.5em;
+    
+}
+
+.plus{
+    width: 30%;
+    cursor: pointer;
+    background-color: #02b402;
+    color: white;
+    border: none;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    padding-top:40px;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 10px 1px #111;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 1.5%;
+    transition: 0.5s;
+}
+
+.item-icone{
+    flex: 20%;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.item-nome{
+    flex: 55%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+    
+}
+.item-botao{
+    flex: 25%;
+    cursor: pointer;
+    
+    
+}
+
+.delete{
+    background-color: #A24936;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.mdi-check-circle{
+    color: #02b402;
+    font-size: 1.3em;
+}
+
+.mdi-circle-outline{
+    font-size: 1.2em;
+}
+
+.item.done{
+    background-color: #83BCA9;
+    
+}
+
+.item.done .item-nome{
+    text-decoration: line-through;
+    color: #5e2a1f;
+}
+
+.mdi-view-list{
+    font-size: 2.0em;
+    color: #222;
+    position: relative;
+    background-color: white;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    left: 1.6em;
+    cursor: text;
+}
+
+@media screen and (max-width: 1180px){
+    .add{
+        min-width: 30%;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .mdi-view-list{
+        display: none;
+    }
+    button.add{
+        min-width: 50%;
+        border-radius: 15px;
+    }
+    .delete{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        flex-direction: column;
+        
+    }
+    input {
+        border-radius: 15px;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .plus{
+        display: flex;
+
+    }
+    .add{
+        display: none;
+    }
+    i{
+        margin: auto;
+    }
+}
