@@ -1,5 +1,5 @@
 <h1 align="center">
-  Doguinhos 🐕‍🦺
+  Lista de tarefas 📋
 </h1>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 Aqui você pode conferir o layout em suas respectivas versões. <br>
 
-[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projeto-doguinhos/)
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/lista-de-tarefas/)
 
 ### Versão Web 🖥️
 
@@ -27,26 +27,19 @@ Aqui você pode conferir o layout em suas respectivas versões. <br>
 
 ---
 
-### Versão Mobile 📱
-
-<br>
-<p align="center">
-  <img alt="layout-web" src="img/mobile.png" width="40%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
 ![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
-![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)<br>
-![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
 	
 
 ## 💻 Projeto
 
-Site para clinica veterinária usando bootstrap para agilizar a construção das seções, com a opção de mudança para o tema escuro 🐶.
+Lista de tarefas simples desenvolvido a partir do curso do canal "Programação Web" de JavaScript..
 
 ## 📝 Licença
 
