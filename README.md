@@ -23,7 +23,7 @@ Aqui você pode conferir o layout em suas respectivas versões. <br>
 ### Versão Web 🖥️
 
 <br>
-  <img alt="layout-web" src="img/doguinhos.png" width="100%"> 
+  <img alt="layout-web" src="img/desktop.png" width="100%"> 
 
 ---
 
