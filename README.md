@@ -16,7 +16,7 @@
 
 ## 🎨 Layout
 
-Aqui você pode conferir o layout em suas respectivas versões. <br>
+Aqui você pode conferir o layout versão web. <br>
 
 [👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/lista-de-tarefas/)
 
